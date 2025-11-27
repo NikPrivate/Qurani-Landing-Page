@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ms">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glosari Leksikal Budaya Qurani</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        background-color: #fdf6e3;
+        color: #1f4b3f;
+      }
+      a {
+        color: #1f4b3f;
+        text-decoration: underline;
+      }
+      .category-card {
+        background-color: #e6f0e9;
+        border-radius: 16px;
+        padding: 2rem;
+        text-align: center;
+        transition: transform 0.3s, background-color 0.3s;
+      }
+      .category-card:hover {
+        background-color: #d1e3d6;
+        transform: translateY(-5px);
+        cursor: pointer;
+      }
+      .feature-card {
+        background-color: white;
+        border-radius: 16px;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        transition: transform 0.3s, box-shadow 0.3s;
+      }
+      .feature-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+      }
+    </style>
+  </head>
+  <body class="font-sans">
+    <!-- Header / Hero -->
+    <header class="text-center py-20 relative">
+      <div class="max-w-4xl mx-auto bg-white rounded-3xl shadow-xl p-10">
+        <img
+          src="/logoGlosari.png"
+          alt="Logo"
+          class="mx-auto mb-6 w-60 h-auto"
+        />
+        <h1 class="text-5xl font-bold mb-4">Glosari Leksikal Budaya Qurani</h1>
+        <p class="text-xl mb-8">
+          Memahami perkataan dalam al-Quran dengan konteks budaya dan makna yang
+          lebih mendalam.
+        </p>
+        <a
+          href="#categories"
+          class="bg-green-700 text-white px-8 py-3 rounded-full font-semibold hover:bg-green-800 transition"
+        >
+          Explore Perkataan
+        </a>
+      </div>
+    </header>
+
+    <!-- About / Introduction -->
+    <section class="max-w-3xl mx-auto text-center py-16 px-4">
+      <h2 class="text-3xl font-semibold mb-6">
+        Apa itu Glosari Leksikal Budaya Qurani?
+      </h2>
+      <p class="text-lg leading-relaxed">
+        Sistem ini membantu pengguna memahami perkataan dalam al-Quran dengan
+        meneliti makna denotasi, makna konotasi, tafsir klasik, serta konteks
+        budaya yang relevan. Anda boleh melihat penggunaan perkataan dalam
+        ayat-ayat Al-Quran, memahami maksud ayat tersebut, serta merujuk tafsir
+        daripada Al-Tahrir wa Al-Tanwir dan Al-Munir.
+      </p>
+    </section>
+
+    <!-- Categories -->
+    <section id="categories" class="max-w-6xl mx-auto py-16 px-4">
+      <h2 class="text-3xl font-semibold mb-12 text-center">
+        Kategori Perkataan
+      </h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div class="category-card shadow-md hover:shadow-xl">Agama</div>
+        <div class="category-card shadow-md hover:shadow-xl">
+          Mental & Emosi
+        </div>
+        <div class="category-card shadow-md hover:shadow-xl">Material</div>
+        <div class="category-card shadow-md hover:shadow-xl">Sosial</div>
+        <div class="category-card shadow-md hover:shadow-xl">Ekologi</div>
+        <div class="category-card shadow-md hover:shadow-xl">Politik</div>
+        <div class="category-card shadow-md hover:shadow-xl">Linguistik</div>
+        <div class="category-card shadow-md hover:shadow-xl">Sastera</div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="max-w-6xl mx-auto py-16 px-4">
+      <h2 class="text-3xl font-semibold mb-12 text-center">
+        Apa yang boleh anda pelajari?
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="feature-card">
+          <div class="text-green-700 text-4xl mb-4">📖</div>
+          <h3 class="font-semibold text-xl mb-2">Ayat-ayat Al-Quran</h3>
+          <p class="text-gray-700">
+            Ayat-ayat Al-Quran yang mengandungi kata yang sedang dikaji.
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="text-green-700 text-4xl mb-4">📝</div>
+          <h3 class="font-semibold text-xl mb-2">Makna Ayat</h3>
+          <p class="text-gray-700">
+            Memahami maksud ayat yang menggunakan kata yang sedang dikaji.
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="text-green-700 text-4xl mb-4">🔍</div>
+          <h3 class="font-semibold text-xl mb-2">Makna Denotasi & Konotasi</h3>
+          <p class="text-gray-700">
+            Meneliti makna literal (denotasi) dan makna konotasi perkataan.
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="text-green-700 text-4xl mb-4">📚</div>
+          <h3 class="font-semibold text-xl mb-2">
+            Tafsir Al-Tahrir wa Al-Tanwir
+          </h3>
+          <p class="text-gray-700">
+            Merujuk tafsir klasik untuk memahami konteks perkataan.
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="text-green-700 text-4xl mb-4">🕌</div>
+          <h3 class="font-semibold text-xl mb-2">Tafsir Al-Munir</h3>
+          <p class="text-gray-700">
+            Merujuk tafsir tambahan untuk pemahaman yang lebih menyeluruh.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-12 border-t mt-16">
+      <a href="/privacy-policy.html" class="font-medium hover:underline"
+        >Privacy Policy</a
+      >
+      <p class="mt-4 text-sm">&copy; 2025 Glosari Leksikal Budaya Qurani</p>
+    </footer>
+  </body>
+</html>
